@@ -1,0 +1,132 @@
+@media(min-width: 992px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 7rem;
+
+    }
+
+    .navBar {
+
+        width: 100vw;
+        margin: 0 auto;
+        gap: 3rem;
+
+    }
+
+    .texto-header h1 {
+        font-size: var(--desktop-title);
+
+    }
+
+    .parrafo-header {
+        font-size: 25px;
+        max-width: 90%;
+        padding: 0.3rem;
+    }
+
+    .nav-header {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .size-6 {
+        display: none;
+    }
+
+    .main {
+        padding-top: 7rem;
+        gap: 5rem;
+    }
+
+
+
+    .container-main,
+    .contenedor-explorar {
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+
+    }
+
+    .container-main h1,
+    .contenedor-explorar h2 {
+        font-size: var(--desktop-title);
+    }
+
+    .img-header {
+        width: 100%;
+    }
+
+    .explorar {
+        gap: 5rem;
+
+    }
+
+    .cards-explorar {
+        flex-direction: row;
+    }
+
+    .productos-info {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .productos-container {
+        gap: 2rem;
+    }
+
+    .beneficios-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+
+    }
+
+
+
+    .beneficios {
+        flex-direction: column;
+        gap: 4rem;
+        padding: 5rem 0;
+
+    }
+
+    .beneficios-varios {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+
+    #faq {
+        flex-direction: row;
+
+    }
+
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 5rem;
+        gap: 2rem;
+    }
+
+    .footer-links {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .redes-sociales {
+        flex-direction: row;
+    }
+}

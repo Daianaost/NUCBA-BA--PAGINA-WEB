@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family-primary: "Anton SC", sans-serif;
+    --mobile-title: 30px;
+    --desktop-title: 50px;
+    --font-family-secondary: "Playfair Display", serif;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* poner una fuente al body y color con variable */
+body {
+    background-color: #ca9ce1;
+}
+
+.navBar {
+    background-color: #7c06b76e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+
+}
+
+.nav-header {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.texto-header {
+    margin-bottom: 20px;
+
+}
+
+.img-header {
+    width: 50%;
+    height: auto;
+    margin-top: auto;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header-bienestar {
+    color: #3d0758;
+}
+
+h1 {
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+    font-size: 60px;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 25%;
+
+}
+
+.parrafo-header {
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.size-6 {
+    width: 24px;
+    stroke-width: 2;
+    
+
+}
+
+.explorar h2 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: var(--font-family-primary);
+}
+
+.contenedor-explorar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: var(--font-family-secondary);
+    font-size: 25px;
+    margin: 20px;
+}
+
+.cards-explorar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.card-meditacion,
+.card-caminata,
+.card-gym {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.cards-explorar img {
+    width: 100%;
+    display: block;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 20px;
+    font-family: var(--font-family-secondary);
+    font-size: 25px;
+}
+
+.productos-info h2 {
+    font-size: var(--mobile-title);
+
+}
+
+.productos-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
+    gap: 1rem;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.producto img {
+    width: 100%;
+    justify-content: space-around;
+    display: block;
+}
+
+.img-yogaProduct {
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.producto p {
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.beneficios-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 5rem;
+
+}
+
+.beneficios-container p {
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo-benef {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.titulo-benef h2 {
+    font-size: var(--mobile-title);
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 30px;
+}
+
+.beneficios-varios {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.descuentos {
+    font-size: var(--mobile-title);
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 30px;
+}
+
+#faq {
+    font-size: var(--mobile-title);
+    text-align: center;
+    justify-content: center;
+    font-family: "Playwrite GB S", cursive;
+    font-size: 30px;
+    padding-bottom: 5rem;
+
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
+
+.faq-container h2 {
+    font-size: var(--mobile-title);
+}
+
+.faq-container p {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+details {
+    border-bottom: 1px solid var(--text);
+    cursor: pointer;
+    padding: 0.5rem 0;
+    user-select: none;
+}
+
+summary {
+    padding: 1rem 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+hr {
+    width: 100%;
+}
